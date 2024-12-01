@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="card">
           {/* <img src={images.footerImage} alt="" />
           <img src={images.logo} alt="" /> */}
-          <p><FlipLink>At VELOCITYSOFT, we're your gateway to superior</FlipLink><FlipLink> digital experiences.</FlipLink> </p>
+          {/* <p><FlipLink>At VELOCITYSOFT, we're your gateway to superior</FlipLink><FlipLink> digital experiences.</FlipLink> </p> */}
         </div>
         <div className="card">
           <h3>Company</h3>
@@ -28,14 +28,14 @@ const Footer = () => {
         <div className="card">
           <h3>Services</h3>
           <ul>
-          <li><FlipLink >Game Development</FlipLink></li>
+          {/* <li><FlipLink >Game Development</FlipLink></li>
           <li><FlipLink >Web Development</FlipLink></li>
           <li><FlipLink >Mobile Apps</FlipLink></li>
           <li><FlipLink >Digital Marketing</FlipLink></li>
           <li><FlipLink >SEO</FlipLink></li>
           <li><FlipLink >IT Innovations</FlipLink></li>
           <li><FlipLink >Business IT Consultation</FlipLink></li>
-          <li><FlipLink >Logo & Digital Artwork</FlipLink></li>
+          <li><FlipLink >Logo & Digital Artwork</FlipLink></li> */}
           </ul>
         </div>
         <div className="card">
@@ -45,7 +45,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="footer-bottom">
-        <p>Copyright © 2024 Hasthiya IT. All Rights Reserved.</p>
+       
         <div >
           <span>Privacy Policy</span>
           <span>|</span>
