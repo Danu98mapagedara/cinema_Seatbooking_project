@@ -1,0 +1,40 @@
+:root{
+  --gradient1 : linear-gradient(90deg, rgba(255,95,33,1) 25%, rgba(255,65,23,1) 74%);
+  --gradient2 : linear-gradient(90deg, rgba(246,246,246,1) 0%, rgba(255,135,48,1) 24%, rgba(255,95,33,1) 39%, rgba(255,32,11,1) 55%, rgba(255,0,0,1) 74%, rgba(246,246,246,1) 100%);
+  --gradient3 : linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,95,33,1) 32%, rgb(255, 47, 0) 74%);
+  --gradient4 : linear-gradient(360deg, rgb(253, 197, 197) 0%, rgba(255,95,33,1) 32%, rgb(255, 47, 0) 74%);
+  --gradient5 : linear-gradient(180deg, #60616c4d 0%, hsla(235, 14%, 33%, 0.302) 28%, #34364d4d 67%);
+  --gradient6 : linear-gradient(90deg, rgb(235, 193, 193) 0%, rgb(238, 130, 106) 44%, rgb(246, 135, 76) 78%);
+  --gradient7 : linear-gradient(90deg, rgb(239, 122, 95) 0%, rgb(240, 81, 45) 78%);
+  --gradient8 : linear-gradient(90deg, rgb(234, 140, 96) 0%, rgba(255,135,48,1) 24%, rgba(255,95,33,1) 39%, rgba(255,32,11,1) 55%, rgba(255,0,0,1) 74%, rgb(234, 140, 96) 100%);
+  --white : #fff;
+  --dark : #03051C;
+  --border : #ffffff75;
+}
+/* #ffffff75 */
+/* #03051C */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: var(--dark);
+  overflow-x: hidden;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--gradient4);
+}
+
+*::selection{
+  background: #fff;
+  color: rgb(240, 81, 45);
+}
